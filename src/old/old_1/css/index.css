@@ -1,0 +1,8 @@
+.heading{
+    color: red;
+    border: 2px solid black;
+}
+
+li{
+    list-style: none;
+}
