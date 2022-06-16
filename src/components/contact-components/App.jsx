@@ -3,8 +3,11 @@ import './styles.css'
 import Card from "./Card";
 import contacts from "./contacts";
 import Avatar from "./Avatar";
+import TestScript from "./test";
 
 function creatCard(contact){
+  var test = TestScript();
+  // console.log(test);
   return (
   <Card 
     key={contact.id}
